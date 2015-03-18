@@ -12,3 +12,4 @@ vert-x3:vertx-auth-service
 vert-x3:vertx-sql-common
 vert-x3:vertx-apex
 vert-x3:vertx-mysql-postgresql-service
+vert-x3:vertx-examples

@@ -1,39 +1,56 @@
 [submodule "vert.x"]
 	path = vert.x
 	url = git@github.com:InfoSec812/vert.x
+	branch = master
 [submodule "vertx-codegen"]
 	path = vertx-codegen
 	url = git@github.com:InfoSec812/vertx-codegen.git
+	branch = master
 [submodule "vertx-docgen"]
 	path = vertx-docgen
 	url = git@github.com:InfoSec812/vertx-docgen.git
+	branch = master
 [submodule "vertx-codetrans"]
 	path = vertx-codetrans
 	url = git@github.com:InfoSec812/vertx-codetrans.git
+	branch = master
 [submodule "vertx-lang-groovy"]
 	path = vertx-lang-groovy
 	url = git@github.com:InfoSec812/vertx-lang-groovy.git
+	branch = master
 [submodule "vertx-lang-js"]
 	path = vertx-lang-js
 	url = git@github.com:InfoSec812/vertx-lang-js.git
+	branch = master
 [submodule "vertx-rx"]
 	path = vertx-rx
 	url = git@github.com:InfoSec812/vertx-rx.git
+	branch = master
 [submodule "vertx-service-factory"]
 	path = vertx-service-factory
 	url = git@github.com:InfoSec812/vertx-service-factory.git
+	branch = master
 [submodule "vertx-service-proxy"]
 	path = vertx-service-proxy
 	url = git@github.com:InfoSec812/vertx-service-proxy.git
+	branch = master
 [submodule "vertx-auth-service"]
 	path = vertx-auth-service
 	url = git@github.com:InfoSec812/vertx-auth-service.git
+	branch = master
 [submodule "vertx-sql-common"]
 	path = vertx-sql-common
 	url = git@github.com:InfoSec812/vertx-sql-common.git
+	branch = master
 [submodule "vertx-apex"]
 	path = vertx-apex
 	url = git@github.com:InfoSec812/vertx-apex.git
+	branch = master
 [submodule "vertx-mysql-postgresql-service"]
 	path = vertx-mysql-postgresql-service
 	url = git@github.com:InfoSec812/vertx-mysql-postgresql-service.git
+	branch = master
+[submodule "vertx-examples"]
+	path = vertx-examples
+	url = git@github.com:InfoSec812/vertx-examples.git
+	branch = master
