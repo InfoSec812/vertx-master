@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASEDIR=${PWD}
-for I in `cat vertx-repo-list.txt | awk -F":" '{print $2}'`
+for I in `cat pom.xml | grep "module>" | sed 's@>\([^<]*\)<@\1@g'`
 do
     echo "Updating ${I}"
     cd ${BASEDIR}/${I}
