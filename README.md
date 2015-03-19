@@ -17,6 +17,18 @@ cd vertx-master
 mvn -T4 compile package install
 ```
 
+## Updating submodules
+
+At some point, you will want to pull the latest version of the code from
+the Vert.x upstream repositories. If you add an __upstream__ remote
+to each submodule pointing to it's original repo, you can update to the latest
+code by running:
+
+```
+./update-all-vertx.sh
+git commit -a
+```
+
 ## WARNING:
 
 This is a HUGE code base and will take a lot of time to build. 
