@@ -17,6 +17,14 @@ cd vertx-master
 mvn -T4 compile package install
 ```
 
+## Building Individual Components
+
+Use the __-pl__ maven option
+
+```bash
+mvn -pl vert.x,vertx-codegen,vertx-lang-js compile package install
+```
+
 ## Updating submodules
 
 At some point, you will want to pull the latest version of the code from
