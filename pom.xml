@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.vertx</groupId>
+    <artifactId>vertx-parent</artifactId>
+    <version>5</version>
+  </parent>
+
+  <artifactId>vertx-master</artifactId>
+  <version>3.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Vert.x Core</name>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>Eclipse Public License - v 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:git@github.com:eclipse/vert.x.git</connection>
+    <developerConnection>scm:git:git@github.com:eclipse/vert.x.git</developerConnection>
+    <url>git@github.com:eclipse/vert.x.git</url>
+  </scm>
+
+  <modules>
+    <module>vertx-codegen</module>
+    <module>vertx-docgen</module>
+    <module>vert.x</module>
+    <module>vertx-reactive-streams</module>
+    <module>vertx-codetrans</module>
+    <module>vertx-amqp-service</module>
+    <module>vertx-mail-service</module>
+    <module>vertx-embedded-mongo-db</module>
+    <module>vertx-lang-groovy</module>
+    <module>vertx-lang-js</module>
+    <module>vertx-rx</module>
+    <module>vertx-redis-service</module>
+    <module>vertx-rabbitmq-service</module>
+    <module>vertx-metrics</module>
+    <module>vertx-unit</module>
+    <module>vertx-mongo-service</module>
+    <module>vertx-service-factory</module>
+    <module>vertx-service-proxy</module>
+    <module>vertx-auth-service</module>
+    <module>vertx-sql-common</module>
+    <module>vertx-jdbc-service</module>
+    <module>vertx-apex</module>
+    <module>vertx-mysql-postgresql-service</module>
+    <module>vertx-examples</module>
+    <module>vertx-hazelcast</module>
+  </modules>
+</project>
