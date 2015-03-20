@@ -39,6 +39,7 @@
     <module>vertx-codegen</module>
     <module>vertx-docgen</module>
     <module>vert.x</module>
+    <module>vertx-dependencies</module>
     <module>vertx-reactive-streams</module>
     <module>vertx-codetrans</module>
     <module>vertx-amqp-service</module>
