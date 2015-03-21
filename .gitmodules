@@ -60,9 +60,6 @@
 [submodule "vertx-reactive-streams"]
 	path = vertx-reactive-streams
 	url = git@github.com:InfoSec812/vertx-reactive-streams.git
-[submodule "vertx-dependencies"]
-	path = vertx-dependencies
-	url = git@github.com:InfoSec812/vertx-dependencies.git
 [submodule "vertx-jdbc-service"]
 	path = vertx-jdbc-service
 	url = git@github.com:InfoSec812/vertx-jdbc-service.git
@@ -75,9 +72,6 @@
 [submodule "vertx-amqp-service"]
 	path = vertx-amqp-service
 	url = git@github.com:InfoSec812/vertx-amqp-service.git
-[submodule "vertx-mail-service"]
-	path = vertx-mail-service
-	url = git@github.com:InfoSec812/vertx-mail-service.git
 [submodule "vertx-metrics"]
 	path = vertx-metrics
 	url = git@github.com:InfoSec812/vertx-metrics.git
@@ -87,9 +81,6 @@
 [submodule "vertx-redis-service"]
 	path = vertx-redis-service
 	url = git@github.com:InfoSec812/vertx-redis-service.git
-[submodule "vertx-rabbitmq-service"]
-	path = vertx-rabbitmq-service
-	url = git@github.com:InfoSec812/vertx-rabbitmq-service.git
 [submodule "vertx-parent"]
 	path = vertx-parent
 	url = git@github.com:vert-x3/vertx-parent.git
