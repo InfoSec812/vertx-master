@@ -36,19 +36,18 @@
   </scm>
 
   <modules>
+    <module>vertx-parent</module>
     <module>vertx-codegen</module>
     <module>vertx-docgen</module>
     <module>vert.x</module>
     <module>vertx-reactive-streams</module>
     <module>vertx-codetrans</module>
     <module>vertx-amqp-service</module>
-    <module>vertx-mail-service</module>
     <module>vertx-embedded-mongo-db</module>
     <module>vertx-lang-groovy</module>
     <module>vertx-lang-js</module>
     <module>vertx-rx</module>
     <module>vertx-redis-service</module>
-    <module>vertx-rabbitmq-service</module>
     <module>vertx-metrics</module>
     <module>vertx-unit</module>
     <module>vertx-mongo-service</module>
