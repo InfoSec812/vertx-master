@@ -59,6 +59,7 @@
   </repositories>
 
   <modules>
+    <module>vertx-parent</module>
     <module>vertx-codegen</module>
     <module>vertx-docgen</module>
     <module>vert.x</module>

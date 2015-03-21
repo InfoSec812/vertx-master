@@ -81,3 +81,6 @@
 [submodule "vertx-redis-service"]
 	path = vertx-redis-service
 	url = git@github.com:InfoSec812/vertx-redis-service.git
+[submodule "vertx-parent"]
+	path = vertx-parent
+	url = git@github.com:vert-x3/vertx-parent.git
