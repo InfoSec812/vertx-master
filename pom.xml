@@ -44,7 +44,7 @@
           <releases>
               <enabled>false</enabled>
           </releases>
-          <url>https://home.zanclus.com/nexus/content/repositories/snapshots/</url>
+          <url>http://192.168.1.70:8081/nexus/content/repositories/snapshots/</url>
       </repository>
       <repository>
           <id>nexus-releases</id>
@@ -54,7 +54,7 @@
           <releases>
               <enabled>true</enabled>
           </releases>
-          <url>https://home.zanclus.com/nexus/content/repositories/releases/</url>
+          <url>http://192.168.1.70:8081/nexus/content/repositories/releases/</url>
       </repository>
   </repositories>
 
