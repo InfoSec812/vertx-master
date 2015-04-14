@@ -72,7 +72,7 @@
     <module>vertx-lang-js</module>
     <module>vertx-rx</module>
     <module>vertx-redis-service</module>
-    <module>vertx-metrics</module>
+<!--    <module>vertx-metrics</module> -->
     <module>vertx-unit</module>
     <module>vertx-mongo-service</module>
     <module>vertx-service-factory</module>
